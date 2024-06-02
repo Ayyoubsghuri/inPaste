@@ -14,9 +14,9 @@ inPaste est un clone du célèbre site web Pastebin, conçu pour permettre aux u
 En raison du temps limité, certaines fonctionnalités n'ont pas été complètement implémentées dans ce projet :
 
 - Page de Connexion ou d'Inscription : Actuellement, le projet ne comporte pas de système de connexion ou d'inscription pour les utilisateurs. Toutes les fonctionnalités sont accessibles publiquement.
-- Gestion des Expirations : Bien que l'expiration des pâtes soit une fonctionnalité prévue, elle n'a pas encore été implémentée.
 - Interface Utilisateur : L'interface utilisateur peut ne pas être complètement finalisée ou optimisée dans cette version.
-
+## Figma lien
+https://www.figma.com/design/fXUtGtLr9GPtvOf9EuJtbM/Untitled?node-id=0-1&t=FAz7CXGjnKuTzHlj-1
 ## Gestion des Tâches de Fond
 
 Un défi rencontré lors du développement de inPaste a été la mise en place de tâches de fond pour vérifier régulièrement si des pâtes ont dépassé leur heure d'expiration. Pour cela, Django offre plusieurs options, notamment l'utilisation de bibliothèques telles que Celery ou Django Background Tasks. Ces outils permettent de planifier et d'exécuter des tâches asynchrones, telles que la vérification des pâtes expirées, de manière efficace et fiable.
