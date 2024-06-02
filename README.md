@@ -1,4 +1,5 @@
 # inPaste - Clone du site web Pastebin
+![alt text](https://github.com/ayoubsghuri/[reponame]/blob/inPaste/inPaste_front/src/images/logo.png?raw=true)
 
 inPaste est un clone du célèbre site web Pastebin, conçu pour permettre aux utilisateurs de partager rapidement et facilement du texte en ligne. Ce projet a été réalisé en 48 heures, donc certaines fonctionnalités peuvent ne pas être complètes ou entièrement implémentées.
 
