@@ -27,7 +27,7 @@ function PastePage() {
                 if (response.data) {
                     notify("Your Paste has been Created 🥂!");
                     setTimeout(() => {
-                        window.location.href = `/home/${response.data["code"]}`;
+                        window.location.href = `/PastePage/${response.data["code"]}`;
                     }, 3000);
                     
                 }
@@ -65,7 +65,7 @@ function PastePage() {
                     <label for="expire" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Select your ExpireDate for this paste (default is Never):</label>
                     <select id="expire" {...register("expiration_choice", { required: true })} class="bg-gray-50 border border-gray-300 text-white text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option default value="never">Never</option>
-                        <option value="burn_after_read"></option>
+                        <option value="burn_after_read">Burn after read</option>
                         <option value="1day">1 Day</option>
                         <option value="1week">1 Week</option>
                         <option value="1month">1 Month</option>

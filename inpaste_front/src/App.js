@@ -20,8 +20,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />}  /> 
-        <Route path="/home" element={<Pastepage />} />
-        <Route path="/home/:id" element={<ShowPaste />} />
+        {/* <Route path="/PastePage" element={<Pastepage />} /> */}
+        <Route path="/PastePage/:id" element={<ShowPaste />} />
 
         {/* <Route path="*" element={<P404 />} />  */}
       </Routes>
