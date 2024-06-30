@@ -25,6 +25,4 @@ The visual design of inPaste aimed to create an attractive and user-friendly int
 - **Tailwind CSS**: A utility-first CSS framework for creating modern and customizable designs.
 
 ## Acknowledgements
-inPaste was a stimulating and rewarding project. I would like to thank everyone who contributed to this project, as well as the open-source community for their valuable resources and contributions.
-
 **Note:** Although inPaste was initially conceived as a test project, it was created with care and attention to provide a quality experience. I am open to feedback, suggestions, and contributions to further improve this project.
