@@ -4,6 +4,9 @@
 ## Overview
 inPaste is a clone of the popular Pastebin website, designed to allow users to quickly and easily share text online. This project was created as a lightweight version of Pastebin, focusing on anonymous paste sharing without the need for login or saving user data.
 
+## Screenshot
+![alt text](https://github.com/AyoubSghuri/inPaste/blob/main/inpaste_front/Home%20Page.png?raw=true)
+
 ## Key Features
 - **Add Pastes**: Users can add text to share online by creating a new paste.
 - **Public or Private Sharing**: Pastes can be shared publicly or privately by setting a password.
