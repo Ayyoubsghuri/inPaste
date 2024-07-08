@@ -26,6 +26,10 @@ def paste_data_info(request):
             paste_data_info = PasteDataInfo.objects.filter(code=code).first()
             serializer = PasteDataInfoSerializer(paste_data_info, many=True)
             if paste_data_info:
+                if paste_data_info.expiration_choice == "burn_after_read":
+                    response_data = serializer.data
+                    paste_data_info.delete()
+                    return Response(response_data, status=status.HTTP_200_OK)
                 # check if code have password enabled whit it
                 if paste_data_info.password_protected:
                     if(request.data["password"]):
