@@ -26,7 +26,7 @@ The visual design of inPaste aimed to create an attractive and user-friendly int
 - **Django**: A powerful web framework for rapid development of web applications in Python.
 - **Django Rest Framework (DRF)**: An extension of Django for building Web APIs.
 - **Tailwind CSS**: A utility-first CSS framework for creating modern and customizable designs.
-- - **Reactjs**: frontend framework that use Javascript for rapid web development. 
+- **Reactjs**: frontend framework that use Javascript for rapid web development. 
 
 ## Acknowledgements
 **Note:** Although inPaste was initially conceived as a test project, it was created with care and attention to provide a quality experience. I am open to feedback, suggestions, and contributions to further improve this project.
